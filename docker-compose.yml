@@ -2,8 +2,9 @@ version: '3.8'
 services:
   ollama:
     image: ollama/ollama:latest
-#    ports:
-#      - 11434:11434
+    # Uncomment this line for external access to Ollama
+    #ports: 
+    #  - 11434:11434 
     volumes:
       - ./ollama/ollama:/root/.ollama
     container_name: ollama
@@ -61,9 +62,9 @@ services:
     depends_on:
       - ollama
     environment:
-      - TOKEN=1
-      - ADMIN_IDS=1
-      - USER_IDS=1
+      - TOKEN=YOUR_BOT_TOKEN
+      - ADMIN_IDS=12345678
+      - USER_IDS=12345678,87654321
       - INITMODEL=llama3.2
       - OLLAMA_BASE_URL=ollama
     networks:
