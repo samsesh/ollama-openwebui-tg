@@ -29,8 +29,9 @@ cd ollama-openwebui-tg
 - Uncomment the following lines in the `docker-compose.yml` file to expose the services outside the Docker network:
   - For Ollama:
     ```yaml
-    ports:
-      - "11434:11434" # Uncomment this line for external access to Ollama
+    # Uncomment this line for external access to Ollama
+    #ports:
+    #  - "11434:11434" 
     ```
 - Adjust the ports if necessary to avoid conflicts.
 
