@@ -1,12 +1,12 @@
 # Ollama OpenWebUI Telegram Bot 🚀
 
-This project integrates three powerful tools—[Ollama](https://github.com/jmorganca/ollama), [OpenWebUI](https://github.com/mlc-ai/web-llm), and [Ollama Telegram Bot](https://github.com/ruecat/ollama-telegram)—to enable AI interaction through a web UI and Telegram bot. It supports both CPU and GPU configurations. 🖥️🤖
+This project integrates three powerful tools—[Ollama](https://github.com/ollama/ollama), [OpenWebUI](https://github.com/open-webui/open-webui), and [Ollama Telegram Bot](https://github.com/ruecat/ollama-telegram)—to enable AI interaction through a web UI and Telegram bot. It supports both CPU and GPU configurations. 🖥️🤖
 
 ---
 
 ## Features ✨
-- **[Ollama](https://github.com/jmorganca/ollama)**: Backend for advanced AI language models.
-- **[OpenWebUI](https://github.com/mlc-ai/web-llm)**: A web-based interface for interacting with AI.
+- **[Ollama](https://github.com/ollama/ollama)**: Backend for advanced AI language models.
+- **[OpenWebUI](https://github.com/open-webui/open-webui)**: A web-based interface for interacting with AI.
 - **[Ollama Telegram Bot](https://github.com/ruecat/ollama-telegram)**: Seamlessly integrates AI models with Telegram.
 
 ---
