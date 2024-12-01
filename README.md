@@ -63,6 +63,25 @@ You can add this `userid` to the `USER_IDS` or `ADMIN_IDS` environment variables
 docker-compose up -d
 ```
 
+### 5. pull LLM Model
+
+```bash
+docker-compose exec -it ollama ollama pull {Model}
+# for example 
+docker-compose exec -it ollama ollama pull llama3.2
+# check donwloaded Model
+docker-compose exec -it ollama ollama list
+```
+or execute to docker container and run ollama command
+```bash
+docker-compose exec -it ollama bash
+ollama pull {Model}
+# for example 
+ollama pull llama3.2
+# check donwloaded Model
+ollama list 
+```
+
 ---
 
 ## GPU Support 💻
